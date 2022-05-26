@@ -89,6 +89,10 @@ div.header {
   padding-bottom: 100px !important;
 }
 
+.menbreinfo{
+    margin-bottom: 15px;
+}
+
 @media screen and (max-width: 1368px) {
   div.container-text {
     padding-top: 50px !important;
@@ -204,7 +208,3 @@ a {
 }
 }
 
-.menbreinfo{
-    margin-bottom: 15px;
-
-}
