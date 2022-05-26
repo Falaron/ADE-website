@@ -39,6 +39,12 @@ span {
   font-size: 25px;
 }
 
+/* Navbar */
+
+.nav-wrapper{
+  background-color: rgb(0, 0, 0, 0.1)
+}
+
 /*Parallax 1*/
 div.header {
   height: 80vh;
