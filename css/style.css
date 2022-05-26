@@ -94,6 +94,10 @@ div.header {
   padding-bottom: 100px !important;
 }
 
+div.container-text {
+  padding-top: 80px;
+}
+
 .menbreinfo{
     margin-bottom: 15px;
 }
@@ -106,14 +110,44 @@ div.header {
   p.text-ade {
     padding-top: 6vh;
    
-  }
 }
+div.cart p{
+    font-size: 1.1rem !important;
+}
+    div.boxes {
+    margin-top: 10vh;
+    }
+    div h5 {
+        text-align: center;
+        font-size: 1.1rem !important;
+    }
+    div ul li {
+        font-size: 0.9rem !important;
+    }
+}
+div.box-container h3 {
+  font-size: 2rem !important;
+}
+  div.box-container p {
+      justify-content: center !important;
+    text-overflow: clip;
+    font-size: 1.3rem !important;
+}
+
 
 @media screen and (min-width: 250px) and (max-width: 500px) {
   .affiche {
     width: 100%;
     height: auto;
   }
+  div.box-container h3 {
+    justify-content: center !important;
+  }
+  div.box-container p {
+    justify-content: center !important;
+  text-overflow: clip;
+  font-size: 1.1rem !important;
+}
 }
 
 @media screen and (max-width: 900px) {
@@ -123,6 +157,9 @@ div.header {
   }
   p.text-ade {
     padding-top: 7vh;
+    font-size: 1.3rem !important;
+}
+p {
     font-size: 1.3rem !important;
   }
 }
