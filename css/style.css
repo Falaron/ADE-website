@@ -48,8 +48,12 @@ span {
 }
 
 /* Navbar */
+
+.nav-wrapper{
+  position: fixed;
+}
 #night{
-  background: linear-gradient(#ff009993,#ff009993 ) !important;
+  background: rgb(15, 16, 66) !important;
   opacity: 1;
 }
 /*Parallax 1*/
@@ -254,5 +258,5 @@ a {
 }
 
 .page-footer{
-  background: linear-gradient(#255b7993, #255b7993) !important;
+  background: rgb(15, 16, 66) !important;
 }
