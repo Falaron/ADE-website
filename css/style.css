@@ -34,6 +34,10 @@ p {
         0 0 151px #333333;
 }
 
+span {
+  font-size: 25px;
+}
+
 /*Parallax 1*/
 div.header {
   height: 80vh;
@@ -88,11 +92,25 @@ div.header {
   max-width: 400px !important;
 }
 
-.membre {
-  padding: 5px 5px 5px 5px;
+.col-content {
+  border-radius: 2vh;
+  padding: 15px 15px 15px 15px;
   background-color: black;
 }
 
 .thing-left {
   margin-left: 50px;
+}
+
+.equipe {
+  border-radius: 2vh;
+}
+
+.linkedin {
+  width: 30px;
+  height: 30px;
+}
+
+.no-margin-bottom {
+  margin-bottom: 5px !important;
 }
