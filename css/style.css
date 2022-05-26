@@ -115,6 +115,34 @@ div.header {
   margin-bottom: 5px !important;
 }
 
+a {
+  font-size: 25px !important;
+  font-weight: 600 !important;
+}
+
 .button {
-  
+  padding: 15px 100px 50px 100px !important;
+  background-color: #ff9933; 
+}
+
+.button:hover {
+  background-color: #ff9933;
+  box-shadow:
+        0 0 7px rgba(255, 255, 255, 0.247),
+        0 0 10px rgba(255, 255, 255, 0.438),
+        0 0 21px #ffaf60,
+        0 0 42px #ffa64d,
+        0 0 82px #ffb265,
+        0 0 92px #ffa347,
+        0 0 102px #ff9e3d,
+        0 0 151px #ff9933;
+}
+
+.mission-big-text {
+  font-size: 40px;
+  margin-top: 100px;
+}
+
+.valign-wrapper {
+  padding-bottom: 0 !important;
 }
