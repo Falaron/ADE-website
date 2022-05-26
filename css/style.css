@@ -1,19 +1,28 @@
-/*Navbar*/
-
-
-/*Parallax 1*/
-div.header {
-    height: 100vh;
-}
-
 * {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300 !important;
   color: #ffcc66;
 }
 
+body {
+  background: url("../img/backgroundquadrillage.png") !important;
+}
+
+.linear-gradient {
+  background: linear-gradient(#ff009993, #255b7993) !important;
+}
+
 h1, h2, h3 {
   font-weight: 700 !important;
+}
+
+h1 {
+  margin-top: 0 !important;
+}
+
+/*Parallax 1*/
+div.header {
+  height: 80vh;
 }
 
 .container-video {
@@ -22,7 +31,38 @@ h1, h2, h3 {
     height: 100%;
 }
 
- #GT{
-   color: aliceblue;
- }
+.backgroundH {
+  max-height: 80vh;
+}
 
+.neon {
+    color: #fff;
+    text-shadow:
+        0 0 7px rgba(255, 255, 255, 0.247),
+        0 0 10px rgba(255, 255, 255, 0.438),
+        0 0 21px #ffaf60,
+        0 0 42px #ffa64d,
+        0 0 82px #ffb265,
+        0 0 92px #ffa347,
+        0 0 102px #ff9e3d,
+        0 0 151px #ff9933;
+}
+
+.presentation {
+  height: 200vh;
+}
+
+.section {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.shadow {
+  box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.03),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.05),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.06),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.08),
+  100px 100px 80px rgba(0, 0, 0, 0.1) !important;
+}
