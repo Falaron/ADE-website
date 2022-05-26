@@ -2,10 +2,9 @@
 
 
 /*Parallax 1*/
-/* .video-container {
-background-image: url("../video/parallax.mp4");
-
-} */
+div.header {
+    height: 100vh;
+}
 
 * {
   font-family: 'Source Sans Pro', sans-serif;
