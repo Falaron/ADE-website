@@ -40,10 +40,10 @@ span {
 }
 
 /* Navbar */
-.nav-wrapper{
-  background-color: rgb(0, 0, 0, 0.1)
+#night{
+  background: linear-gradient(#ff009993,#ff009993 ) !important;
+  opacity: 1;
 }
-
 /*Parallax 1*/
 div.header {
   height: 80vh;
@@ -206,4 +206,8 @@ a {
   background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 25%,
   rgba(0,0,0,0.65) 37.5%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.65) 75%, rgba(0, 0, 0, 0.5) 85%,
   rgba(0, 0, 0, 0) 100%);
+}
+
+.page-footer{
+  background: linear-gradient(#255b7993, #255b7993) !important;
 }
