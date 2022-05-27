@@ -148,6 +148,10 @@ div.box-container h3 {
 
 
 @media screen and (min-width: 250px) and (max-width: 500px) {
+   .titretel{
+       font-size : xx-large;;
+   }
+
   .affiche {
     width: 100%;
     height: auto;
