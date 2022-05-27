@@ -125,6 +125,8 @@ div.container-text {
 }
 div.cart p{
     font-size: 1.1rem !important;
+	
+	height: 18vh !important;
 }
     div.boxes {
     margin-top: 10vh;
@@ -163,6 +165,27 @@ div.box-container h3 {
     justify-content: center !important;
   text-overflow: clip;
   font-size: 1.1rem !important;
+}
+
+.section {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.btn {
+	font-size: 1rem !important;
+}
+
+.no-bottom-row {
+	padding-top: 0 !important;
+}
+
+.row {
+	padding-top: 0 !important;
+}
+
+.col {
+	margin-bottom: 50px;
 }
 }
 
