@@ -49,6 +49,12 @@ span {
 
 /* Navbar */
 
+nav {
+	position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
 .nav-wrapper{
   position: fixed;
 }
@@ -84,11 +90,20 @@ div.header {
         0 0 151px #ff9933;
 }
 
+#wrapper {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
 .section {
   padding-top: 5vh;
   padding-bottom: 5vh;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.parallax-container #section-parallax {
+	padding-top: 0 !important;
 }
 
 .shadow {
@@ -106,12 +121,20 @@ div.header {
   padding-bottom: 100px !important;
 }
 
+footer .row {
+	margin-bottom: 0 !important;
+}
+
 div.container-text {
   padding-top: 80px;
 }
 
 .menbreinfo{
     margin-bottom: 15px;
+}
+
+.cart {
+	
 }
 
 @media screen and (max-width: 1368px) {
@@ -121,7 +144,7 @@ div.container-text {
   }
   p.text-ade {
     padding-top: 6vh;
-   
+ 
 }
 div.cart p{
     font-size: 1.1rem !important;
@@ -168,8 +191,8 @@ div.box-container h3 {
 }
 
 .section {
-	padding-left: 2%;
-	padding-right: 2%;
+	padding-left: 1%;
+	padding-right: 1%;
 }
 
 .btn {
